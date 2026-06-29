@@ -102,9 +102,9 @@ header {
 /* ----- Projects Section-------*/
 
 .projects-section {
-  max-width: 120px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 100px, 50px;
+  padding: 100px 50px;
 }
 
 .projects-section h2 {
@@ -115,7 +115,7 @@ header {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(autofit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
 }
 
