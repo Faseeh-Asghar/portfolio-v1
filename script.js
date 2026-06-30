@@ -26,3 +26,10 @@ const observer = new IntersectionObserver(
 hiddenElements.forEach((el) => {
   observer.observe(el);
 });
+
+const hamburgerBtn = document.querySelector('#hamburger-btn');
+const navLinks = document.querySelector('.nav-links');
+
+hamburgerBtn.addEventListener('click', function () {
+  navLinks.classList.toggle('open');
+});
