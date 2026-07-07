@@ -204,3 +204,58 @@ header.scrolled {
     display: flex;
   }
 }
+
+.contact-section {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 100px 50px;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  letter-spacing: -1px;
+}
+
+.contact-subtitle {
+  color: #888888;
+  margin-bottom: 50px;
+  font-size: 1.1rem;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+input,
+textarea {
+  width: 100%;
+  background-color: #111111;
+  border: 1px solid #333333;
+  color: #ffffff;
+  padding: 14px 18px;
+  font-size: 1rem;
+  border-radius: 6px;
+  outline: none;
+  font-family: inherit;
+  transition: border-color 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #ffffff;
+}
+
+.error-msg {
+  color: #f87171;
+  font-size: 0.85rem;
+  margin-top: 6px;
+  display: block;
+  min-height: 20px;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 16px;
+  font-size: 1rem;
+}
